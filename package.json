@@ -1,0 +1,27 @@
+{
+  "name": "webapp",
+  "version": "0.0.1",
+  "description": "Just a webapp for me to test around with.",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --config webpack.prod.babel.js --color -p --progress",
+    "build:clean": "rimraf ./build",
+    "start": "cross-env NODE_ENV=development node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkabra/node-webapp.git"
+  },
+  "author": "Pratik Kabra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkabra/node-webapp/issues"
+  },
+  "homepage": "https://github.com/pkabra/node-webapp#readme",
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
