@@ -6,6 +6,16 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var lessMiddleware = require('less-middleware');
 
+const badVar = 1;
+
+function helloWorld() {
+  console.log('hello world');    
+}
+
+function helloWorld2() {
+      console.log('hello world');
+}
+
 var index = require('./routes/index');
 var users = require('./routes/users');
 
