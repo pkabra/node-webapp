@@ -35,41 +35,46 @@ const longFunction = () => {
     return 'hello world';
   }
   const codeThatWillNeverExecute = 20;
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
-  }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
-  }
-  for(const i; i < 50; i++) {
-    data.append(i);
-    codeThatWillNeverExecute--;
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
   }
   return {};
 }
