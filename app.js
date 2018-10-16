@@ -11,6 +11,76 @@ var users = require('./routes/users');
 
 var app = express();
 
+const badFunc1 = () => {
+  return true;
+}
+
+const badFunc2 = () => {
+  return true;
+}
+
+const unused_variable = 1;
+
+const longFunction = () => {
+  const data = [];
+  const count = 0;
+  while(true) {
+    data.append(count);
+    count++
+    if (count > 20) break;
+  }
+  if (count > 20) {
+    return true
+  } else {
+    return 'hello world';
+  }
+  const codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  codeThatWillNeverExecute = 20;
+  while(true) {
+    data.append(codeThatWillNeverExecute);
+    count--;
+    if (codeThatWillNeverExecute < 0) break;
+  }
+  return {};
+}
+
+const something = longFunction();
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'twig');
